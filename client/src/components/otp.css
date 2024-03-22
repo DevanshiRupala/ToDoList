@@ -1,0 +1,56 @@
+.center1 {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff; 
+  box-shadow: 0 0 10px rgba(228, 7, 7, 0.3); 
+  margin-top: 200px;
+  margin-bottom: 60px;
+  margin-left: 500px;
+  width : 500px;
+  }
+  
+  .center1 h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+  }
+  
+  .txt_field1 {
+    margin-bottom: 30px;
+  }
+  
+  .txt_field1 input {
+    width: 95%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 15px;
+  }
+  
+  .txt_field1 input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  .txt_field1 input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .verify{
+    background-color: #007BFF;
+    margin-left: 230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+  }

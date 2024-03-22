@@ -1,0 +1,55 @@
+/* CSS for the CompletedTasksChart component */
+.chart-container {
+  display: flex;
+  margin: 20px;
+}
+
+.chart-title {
+  color: #007BFF;
+  font-size: 18px; /* Decreased font size */
+  margin: 10px 0;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.chart {
+  flex: 0 1 calc(50% - 10px); /* Set charts to be 50% wide with minimal spacing */
+  padding: 5px; /* Decreased padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Include padding in the width calculation */
+  width: 400px;
+  margin-right: 25px;
+  margin-left: 15px;
+  margin-top: 110px;
+  background-color: #ffffff;
+  height: 430px;
+  box-shadow: 3px 4px 6px rgba(0.4, 0.4, 0.4, 0.4);
+}
+
+.header {
+  display: flex;
+  padding: 10px; /* Add padding to the header */
+  margin-top: 40px;
+  margin-left: 1250px;
+  margin-bottom: -40px;
+}
+
+.button {
+  width: 60px; /* Adjust the width as needed for your design */
+  height: 60px; /* Make the button square */
+  border-radius: 50%; /* Makes the button circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #007BFF; /* Background color for the button */
+  color: #fff; /* Text color for the button */
+  font-size: 20px; /* Adjust the font size as needed */
+  cursor: pointer; /* Remove the button border */ /* Remove the button outline */
+  margin-right: 10px; /* Add margin between the buttons */
+  transition: background-color 0.3s;
+}
+
+.button:hover{
+  background-color: #0056b3;
+}

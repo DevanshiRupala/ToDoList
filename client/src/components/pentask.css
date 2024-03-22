@@ -1,0 +1,98 @@
+/* pentask.css */
+body {
+  background-color: #99cbf7;
+}
+
+.task-list-container1 {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.task-list-header1 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-left: 700px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  color: #007BFF;
+  text-decoration: underline;
+}
+
+.task-list1 {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(2, 2, 2, 0.5);
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.task-details {
+  flex: 1;
+  font-size: 25px;
+  padding: 0 10px;
+  margin-left: 60px;
+}
+
+.task-from {
+  font-size: 14px;
+}
+
+.accept-button,
+.decline-button {
+  width: 40px; /* Adjust the width as needed for your design */
+  height: 40px; /* Make the button square */
+  border-radius: 50%; /* Makes the button circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #007BFF; /* Background color for the button */
+  color: #fff; /* Text color for the button */
+  font-size: 20px; /* Adjust the font size as needed */
+  cursor: pointer; /* Remove the button border */ /* Remove the button outline */
+  margin-right: 10px; /* Add margin between the buttons */
+  transition: background-color 0.3s;
+}
+
+.accept-button:hover,
+.decline-button:hover {
+  background-color: #0056b3;
+}
+
+.deva{
+  margin-left: 600px;
+  margin-top: -70px;
+}
+
+.deva1{
+  width: 60px; /* Adjust the width as needed for your design */
+  height: 60px; /* Make the button square */
+  border-radius: 50%; /* Makes the button circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #007BFF; /* Background color for the button */
+  color: #fff; /* Text color for the button */
+  font-size: 20px; /* Adjust the font size as needed */
+  cursor: pointer; /* Remove the button border */ /* Remove the button outline */
+  margin-right: 10px; /* Add margin between the buttons */
+  transition: background-color 0.3s;
+}
+
+.deva1:hover{
+  background-color: #0056b3;
+}
+
+.noti{
+  text-decoration: none;
+}

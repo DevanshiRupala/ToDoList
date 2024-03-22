@@ -1,0 +1,68 @@
+.task1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center vertically */
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7);
+  transition: background-color 0.3s;
+}
+
+.task1:hover {
+  background-color: #e0e0e0;
+}
+
+.devanshi {
+  flex: 1;
+  margin-left: 60px;
+  font-size: 17px;
+  color: #000000; 
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  background-color: #007BFF;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s;
+}
+
+.buttons:hover {
+  background-color: #0056b3;
+}
+
+/* Style the SVG icons */
+.buttons svg {
+  height: 1em;
+  fill:#fff;
+}
+
+/* Style the due date */
+.task div {
+  font-size: 14px;
+  color: #888; /* Date text color */
+}
+
+/* Share button */
+
+.share-button:hover {
+  background-color: #d1482e;
+}
+
+/* Hover effect for the task description */
+.DIV3:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
